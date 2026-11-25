@@ -1,0 +1,32 @@
+WINTER WORLD 2027 — PREMIUM UPDATE 07
+
+New in this update:
+- Rebuilt Vision Board as a visual goal-planning workspace.
+- Added six goal categories: Personal, Study, Career, Wellbeing, Travel and Creative.
+- Added optional first-step notes for each goal.
+- Added individual goal progress sliders (0–100%) and completion controls.
+- Added overall progress statistics and a combined progress bar.
+- Added drag-and-drop goal reordering on desktop.
+- Added an optional inspiration/cover image upload with client-side resizing.
+- Added PNG export of the Vision Board without requiring an extra package.
+- Preserved existing saved goals; legacy goals remain visible and editable.
+- Added responsive layouts and light-theme styling.
+- All new interface labels are localized in English, Uzbek and Russian.
+
+Data and privacy:
+- Goals and the inspiration image are stored in this browser's localStorage.
+- The board export is generated locally in the browser.
+- No account or cloud sync is included.
+
+Run locally:
+1. Extract the ZIP.
+2. Open the newyear-final folder in VS Code.
+3. Run: npm install
+4. Run: npm run dev
+5. Open the local URL shown by Vite.
+
+Validation:
+- JSX/TSX transpilation completed with zero diagnostics.
+- Transpiled JavaScript passed Node syntax checking.
+- ZIP integrity checked after packaging.
+- A full Vite production build was not run because dependency installation timed out in this environment. Run npm install and npm run build locally before deployment.
